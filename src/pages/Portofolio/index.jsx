@@ -7,9 +7,9 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Qualification from "./components/qualification/Qualification";
 import Scrollup from "./components/scrollup/Scrollup";
-import Services from "./components/services/Services";
+// import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
-import Testimonials from "./components/testimonials/Testimonials";
+// import Testimonials from "./components/testimonials/Testimonials";
 import Work from "./components/work/Work";
 
 function Portofolio() {
@@ -21,10 +21,10 @@ function Portofolio() {
         <Home />
         <About />
         <Skills />
-        <Services />
+        {/* <Services /> */}
         <Qualification />
         <Work />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
       </main>
 

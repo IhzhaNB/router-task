@@ -52,7 +52,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Ibtidaiyah Madrasa</h3>
                 <span className="qualification__subtitle">
-                  MIN 1 Jakarta Barat / MIN 1 Kamal
+                  MIN 1 Jakarta Barat
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2007 - 2013
@@ -128,12 +128,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">Head of Administration</h3>
                 <span className="qualification__subtitle">
-                  Google - Indonesia
+                  MTs Al-Gaotsiyah Kamal
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2023
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2023
                 </div>
               </div>
 
@@ -143,7 +143,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -176,7 +176,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

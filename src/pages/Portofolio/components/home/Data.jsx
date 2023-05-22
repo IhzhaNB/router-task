@@ -55,10 +55,11 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Visual Designer</h3>
+      <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm Creative designer based in West Jakarta, and I'm very passionate and
-        dedicated to my work.
+        I am a web developer with specialized skills in the MERN stack. I have
+        experience in developing responsive and dynamic web applications using
+        MongoDB, Express.js, React, and Node.js.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

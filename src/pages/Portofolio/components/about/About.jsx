@@ -17,7 +17,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface.
+            Passionate MERN web developer with self-study experience, skilled in
+            creating responsive and dynamic web applications. Deep knowledge of
+            MERN stack, driven to continuously learn and excel in web
+            development.
           </p>
 
           <a download="" href={CV} className="button button--flex">
