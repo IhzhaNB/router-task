@@ -1,15 +1,34 @@
 import "./App.css";
-import Portofolio from "./pages/Portofolio";
-// import FormValidate from "./pages/FormValidate";
-// import NewsLC from "./pages/NewsLC";
-// import HookNews from "./pages/HookNews";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from "./pages/Home";
+import About from "./Portofolio/components/about/About";
+import Contact from "./Portofolio/components/contact/Contact";
+import Footer from "./Portofolio/components/footer/Footer";
+import Header from "./Portofolio/components/header/Header";
+import Home from "./Portofolio/components/home/Home";
+import Qualification from "./Portofolio/components/qualification/Qualification";
+import Scrollup from "./Portofolio/components/scrollup/Scrollup";
+// import Services from "./Portofolio/components/services/Services";
+import Skills from "./Portofolio/components/skills/Skills";
+// import Testimonials from "./Portofolio/components/testimonials/Testimonials";
+import Work from "./Portofolio/components/work/Work";
 
 function App() {
   return (
     <>
-      <Portofolio />
+      <Header />
+
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        {/* <Services /> */}
+        <Qualification />
+        <Work />
+        {/* <Testimonials /> */}
+        <Contact />
+      </main>
+
+      <Footer />
+      <Scrollup />
     </>
   );
 }

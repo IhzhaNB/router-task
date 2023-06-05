@@ -28,7 +28,7 @@ export const projectsData = [
   {
     id: 4,
     image: Work4,
-    title: "E-Commerce",
+    title: "D.Store",
     url: "https://ecommerce-frontend-eduwork.vercel.app/",
     category: "My Project",
   },
